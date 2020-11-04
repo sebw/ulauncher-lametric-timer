@@ -1,0 +1,32 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "LaMetric Timer",
+  "description": "Start timer on your LaMetric Smart Clock through a local push",
+  "developer_name": "Sebastien Wains",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "demo_kw",
+      "type": "keyword",
+      "name": "LaMetric timer",
+      "default_value": "timer"
+    },
+    {
+      "id": "setting_host",
+      "type": "text",
+      "name": "LaMetric IP or hostname",
+      "description": "Example: 192.168.1.10 or mylametric.example.org. No http:// or https://",
+      "default_value": "192.168.1.10"
+    },
+    {
+      "id": "setting_pass",
+      "type": "text",
+      "name": "Your dev API",
+      "description": "Found at https://developer.lametric.com/user/devices",
+      "default_value": ""
+    }
+  ]
+}
