@@ -35,7 +35,7 @@ class KeywordQueryEventListener(EventListener):
 
         items.append(ExtensionResultItem(icon='images/icon.png',
                                             name='Start LaMetric timer',
-                                            description='Specify how many minutes or "pause".',
+                                            description='Specify how many minutes to start a new timer.\nType pause or resume for existing timers.',
                                             highlightable=False,
                                             on_enter=ExtensionCustomAction(query, keep_app_open=True)))
 
